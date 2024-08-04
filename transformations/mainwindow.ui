@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>830</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0" rowspan="2">
+     <widget class="QGraphicsView" name="graphicsView"/>
+    </item>
+    <item row="0" column="1">
+     <widget class="QGroupBox" name="groupBox">
+      <property name="title">
+       <string>Projective</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QLabel" name="XxLabel">
+         <property name="text">
+          <string>Xx</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QSpinBox" name="Xx"/>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="XyLabel">
+         <property name="text">
+          <string>Xy</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QSpinBox" name="Xy"/>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="YxLabel">
+         <property name="text">
+          <string>Yx</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QSpinBox" name="Yx"/>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="YyLabel">
+         <property name="text">
+          <string>Yy</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QSpinBox" name="Yy"/>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="wXlabel">
+         <property name="text">
+          <string>wX</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QSpinBox" name="wX"/>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="wYlabel">
+         <property name="text">
+          <string>wY</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <widget class="QSpinBox" name="wY"/>
+       </item>
+       <item row="6" column="0">
+        <widget class="QLabel" name="w0Label">
+         <property name="text">
+          <string>w0</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="1">
+        <widget class="QSpinBox" name="w0"/>
+       </item>
+       <item row="7" column="0">
+        <widget class="QLabel" name="OxLabel">
+         <property name="text">
+          <string>Ox</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="1">
+        <widget class="QSpinBox" name="Ox"/>
+       </item>
+       <item row="8" column="0">
+        <widget class="QLabel" name="OyLabel">
+         <property name="text">
+          <string>Oy</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="1">
+        <widget class="QSpinBox" name="Oy"/>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QPushButton" name="apply">
+      <property name="text">
+       <string>Apply</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

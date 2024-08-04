@@ -1,0 +1,8 @@
+/home/padniuk/Desktop/hbo/build/CMakeFiles/hbo.dir
+/home/padniuk/Desktop/hbo/build/CMakeFiles/edit_cache.dir
+/home/padniuk/Desktop/hbo/build/CMakeFiles/rebuild_cache.dir
+/home/padniuk/Desktop/hbo/build/CMakeFiles/list_install_components.dir
+/home/padniuk/Desktop/hbo/build/CMakeFiles/install.dir
+/home/padniuk/Desktop/hbo/build/CMakeFiles/install/local.dir
+/home/padniuk/Desktop/hbo/build/CMakeFiles/install/strip.dir
+/home/padniuk/Desktop/hbo/build/CMakeFiles/hbo_autogen.dir

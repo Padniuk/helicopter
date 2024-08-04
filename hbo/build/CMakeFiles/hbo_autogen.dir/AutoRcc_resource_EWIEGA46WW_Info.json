@@ -1,0 +1,37 @@
+{
+	"BUILD_DIR" : "/home/padniuk/Desktop/hbo/build/hbo_autogen",
+	"CMAKE_BINARY_DIR" : "/home/padniuk/Desktop/hbo/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/padniuk/Desktop/hbo/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/padniuk/Desktop/hbo",
+	"CMAKE_SOURCE_DIR" : "/home/padniuk/Desktop/hbo",
+	"INCLUDE_DIR" : "/home/padniuk/Desktop/hbo/build/hbo_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/padniuk/Desktop/hbo/img/final.jpg",
+		"/home/padniuk/Desktop/hbo/img/background.png",
+		"/home/padniuk/Desktop/hbo/audio/song.mp3",
+		"/home/padniuk/Desktop/hbo/audio/o2.ogg",
+		"/home/padniuk/Desktop/hbo/audio/o6.ogg",
+		"/home/padniuk/Desktop/hbo/audio/o7.mp3",
+		"/home/padniuk/Desktop/hbo/audio/start.ogg",
+		"/home/padniuk/Desktop/hbo/audio/final.ogg",
+		"/home/padniuk/Desktop/hbo/audio/g.ogg",
+		"/home/padniuk/Desktop/hbo/audio/o1.ogg",
+		"/home/padniuk/Desktop/hbo/audio/o5.ogg",
+		"/home/padniuk/Desktop/hbo/audio/b.ogg",
+		"/home/padniuk/Desktop/hbo/audio/o9.ogg",
+		"/home/padniuk/Desktop/hbo/audio/o4.ogg",
+		"/home/padniuk/Desktop/hbo/audio/o8.ogg",
+		"/home/padniuk/Desktop/hbo/audio/o3.ogg"
+	],
+	"LOCK_FILE" : "/home/padniuk/Desktop/hbo/build/CMakeFiles/hbo_autogen.dir/AutoRcc_resource_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resource" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_resource.cpp",
+	"RCC_EXECUTABLE" : "/usr/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/padniuk/Desktop/hbo/build/CMakeFiles/hbo_autogen.dir/AutoRcc_resource_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/padniuk/Desktop/hbo/resource.qrc",
+	"VERBOSITY" : 0
+}

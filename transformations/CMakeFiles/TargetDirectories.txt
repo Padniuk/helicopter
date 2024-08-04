@@ -1,0 +1,8 @@
+/home/padniuk/Desktop/helicopter/transformations/CMakeFiles/transformations.dir
+/home/padniuk/Desktop/helicopter/transformations/CMakeFiles/edit_cache.dir
+/home/padniuk/Desktop/helicopter/transformations/CMakeFiles/rebuild_cache.dir
+/home/padniuk/Desktop/helicopter/transformations/CMakeFiles/list_install_components.dir
+/home/padniuk/Desktop/helicopter/transformations/CMakeFiles/install.dir
+/home/padniuk/Desktop/helicopter/transformations/CMakeFiles/install/local.dir
+/home/padniuk/Desktop/helicopter/transformations/CMakeFiles/install/strip.dir
+/home/padniuk/Desktop/helicopter/transformations/CMakeFiles/transformations_autogen.dir

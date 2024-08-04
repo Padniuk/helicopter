@@ -1,0 +1,177 @@
+Crimean Bridge reopens for traffic after explosion (VIDEO)
+
+Road traffic on the Crimean Bridge, which was damaged by a truck explosion earlier on Saturday, has partly resumed, and trains are expected to start moving later in the evening.“The movement of vehicles along the Crimean Bridge has resumed. At the moment, traffic is open to cars and buses with a full inspection procedure,” the head of the Republic of Crimea, Sergey Aksyonov, announced on Telegram.Truck drivers are advised to use the Kerch ferry crossing, he added.Russia’s Transport Ministry said that road traffic had been reopened on the bridge, with one lane available for traffic alternating in both directions.
+    var RT = RT || {};
+    RT.player = RT.player || {};
+    RT.player.time = Date.parse('Sunday, 09-Oct-2022 22:56:41 GMT')
+
+        .mediaplayer {
+            min-height: 150px;
+        }
+        .jwplayer .jw-controls .jw-controlbar .jw-icon-cc {
+            display: none;
+        }
+    
+    .media__video_noscript {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+    .full_transcript_text {
+        display: block;
+    }
+
+    if (!!window.jwplayer === false) {
+        var VideoPlayer = document.createElement('video');
+        VideoPlayer.className = "media__video_noscript";
+        VideoPlayer.controls = true;
+        //
+        // var sourceMP4 = document.createElement("source");
+        // sourceMP4.type = "video/mp4";
+        VideoPlayer.src = "https://cdnv.russiatoday.com/files/2022.10/6341ab1785f5404b1f629b6b.mp4";
+        VideoPlayer.poster = "https://cdni.russiatoday.com/files/2022.10/article/6341ab112030275a6604ee81.png";
+        // VideoPlayer.appendChild(sourceMP4);
+
+        document.getElementById('nojwp').appendChild(VideoPlayer);
+    }
+
+    jwplayer.key = "kESrsgULvYO7r2MfUelqj3vs+2i8JdQBqjGNmA==";
+    
+    var recomedationBlock6341ab1785f5404b1f629b6b = document.getElementById('recomendation-6341ab1785f5404b1f629b6b');
+    var mediaplayerContainer6341ab1785f5404b1f629b6b = document.getElementById('mediaplayer-container6341ab1785f5404b1f629b6b');
+    var mediaMute = false;
+
+    if (mediaMute) {
+        window.PROMOBOX_NO_FIXED = true;
+    }
+
+    jwplayer("js-mediaplayer-6341ab1785f5404b1f629b6b").setup({
+                advertising: {
+            client: "vast",
+            schedule: {
+                preroll: {
+                    offset: "pre",
+                    tag: 'https://ads.adfox.ru/258144/getCode?pp=kmk&ps=cowp&p2=fzqt'
+                },
+            }
+
+        },
+                // Кавер видео устанавливается в prepareMedia
+                image: "https://cdni.russiatoday.com/files/2022.10/article/6341ab112030275a6604ee81.png",
+                file: "https://cdnv.russiatoday.com/files/2022.10/6341ab1785f5404b1f629b6b.mp4",
+        // title:       "Crimea\u0020bridge\u0020traffic\u0020restored",
+        aspectratio: "16:9",
+        skin: {
+            name: "five",
+            active: "#77bd1e",
+            background: "rgba(0, 0, 0, 0.5)",
+            inactive: "#FFFFFF"
+        },
+        width: "100%",
+        autostart: false,
+        mute: false,
+        startparam: "start",
+        ga: {},
+                sharing: {
+            code: encodeURI('<div style="position: relative;padding-bottom: 56.25%; padding-top: 25px; height: 0;"><iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;" src="' +
+                location.protocol + '//' + location.host + '/russia/564303-crimean-bridge-traffic-resumed/video/6341ab1785f5404b1f629b6b" frameborder="0" allowfullscreen></iframe></div>'),
+            link: "https://www.rt.com/russia/564303-crimean-bridge-traffic-resumed/"
+        },
+                        events: {
+            onReady: function () {
+
+                if(ga && mediaMute === false) {
+                    ga('send', 'event', 'JWPLAYER-GA', 'CLICK PLAY', location.href);
+                    ga('send', 'event', 'JW Player Article', 'Ready', location.href); // Временно эти дублирующие счетчики остаются
+                }
+            },
+            onPlay: function () {
+
+                                myStreamingTag.playVideoContentPart(metadata);
+                if (ga) {
+                    if (mediaMute === false) {
+                        ga('send', 'event', 'JWPLAYER-GA', 'CLICK PLAY', location.href);
+                        ga('send', 'event', 'JW Player Article', 'Play', location.href);
+                    }
+                }
+                var playingVideoId = 'js-mediaplayer-6341ab1785f5404b1f629b6b'; // id текущего плеера
+                pauseMedia(playingVideoId); //запускаем функцию остановки всех играющих плееров кроме этого Код функции ниже по коду
+                
+                if (recomedationBlock6341ab1785f5404b1f629b6b) {
+                    recomedationBlock6341ab1785f5404b1f629b6b.classList.remove('recomendation_active');
+                }
+
+                if (mediaplayerContainer6341ab1785f5404b1f629b6b) {
+                    mediaplayerContainer6341ab1785f5404b1f629b6b.classList.add('mediaplayer_played');
+                }
+                localStorage.setItem('canfixed', true);
+            },
+            onPause: function () {
+                myStreamingTag.stop();
+                if (mediaMute === false) {
+                    if (ga) ga('send', 'event', 'JWPLAYER-GA', 'CLICK PAUSE', location.href);
+                }
+
+                if (recomedationBlock6341ab1785f5404b1f629b6b) {
+                    recomedationBlock6341ab1785f5404b1f629b6b.classList.add('recomendation_active');
+                }
+            },
+            onComplete: function () {
+                myStreamingTag.stop();
+                if (ga && mediaMute === false) {
+                    ga('send', 'event', 'JWPLAYER-GA', 'COMPLETE', location.href);
+                    ga('send', 'event', 'JW Player Article', 'Complete', location.href);
+                }
+
+                
+                if (recomedationBlock6341ab1785f5404b1f629b6b) {
+                    recomedationBlock6341ab1785f5404b1f629b6b.classList.add('recomendation_active');
+                }
+            }
+        }
+    });
+
+    
+
+    
+    jwplayer("js-mediaplayer-6341ab1785f5404b1f629b6b").addButton(
+        "https://www.rt.com/static/libs/jwplayer/img/download.png",
+        "Download",
+        function () {
+            window.location.href = "https://cdnv.russiatoday.com/files/2022.10/6341ab1785f5404b1f629b6b.mp4?download=1";
+        },
+        "download"
+    );
+
+    
+    function pauseMedia(playingMediaId) {
+        var players = document.querySelectorAll('.jwplayer, object');
+        var fixPlayer = document.querySelector('.mediaplayer_fixed');
+        let shadowDiv = document.querySelector('.div_shadow');
+        var plId = playingMediaId.split('-')[2];
+
+        for (var i = 0, max = players.length; i < max; i++) {
+            var currentMediaId = players[i].id;
+
+            if(currentMediaId !== playingMediaId){
+                jwplayer(players[i]).play(false);
+                players[i].parentElement.classList.remove('mediaplayer_played');
+                if(fixPlayer && shadowDiv){
+                    if(fixPlayer.id !== 'mediaplayer-container' + plId){
+                        if (shadowDiv.parentElement) {
+                            shadowDiv.parentElement.removeChild(shadowDiv);
+                        }
+                        fixPlayer.classList.remove('mediaplayer_fixed');
+                    }
+                }
+            }
+        }
+    }
+
+
+Following an initial assessment of the damage to the bridge’s railway, the ministry said the “organization of the movement of the first trains will be ensured by 20:00 Moscow time.”Earlier on Saturday, Russia’s Investigative Committee said the explosion of a truck on the bridge caused seven fuel tanks of a train heading towards Crimea to ignite. Three people are believed to have died as a result of the incident.The All-Russian Union of Insurers has estimated the damage done to the bridge at 200-500 million rubles ($3.2 to 8 million).Kiev, despite top officials celebrating the blast, stopped short of claiming responsibility. Nevertheless, Estonian Foreign Minister Urmas Reinsalu congratulated the “Ukrainian special operations units who are believed to be behind this operation.”Since the launch of Russia’s military operation in Ukraine in late February, various Ukrainian officials have vowed to attack the Crimean Bridge. Kiev views the peninsula as its own territory which was illegally “annexed,” in spite of the fact that the region voted overwhelmingly to reunite with Russia following the 2014 Maidan coup in Kiev.
